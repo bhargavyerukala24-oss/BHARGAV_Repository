@@ -1,0 +1,11 @@
+case_id,question,expected_location,expected_tool,expected_behavior
+1,"Current temperature in Hyderabad India?","Hyderabad Telangana India",current_weather,"Confirm location; include observed time and units"
+2,"Will it rain in Hyderabad tomorrow?","Hyderabad Telangana India",daily_forecast,"Include tomorrow date and at least two forecast days"
+3,"Three-day temperatures in London UK?","London England UK",daily_forecast,"Show returned dates and min/max temperatures"
+4,"Current weather in Springfield?","User-selected Springfield",current_weather,"Require explicit choice of correct city"
+5,"What is the weather?",missing,none,"Request a location; no invented city"
+6,"Weather next month in Hyderabad?","Hyderabad Telangana India",none,"Explain seven-day horizon; do not invent data"
+7,"Current weather in invalid-example-city-xyz?",none,search_locations,"No candidates; no fabricated result"
+8,"Rain tomorrow in Hyderabad?","Hyderabad Telangana India",daily_forecast,"If API fails or probability is missing do not fabricate"
+9,"Current weather for selected city but model supplies another ID?",selected,current_weather,"Reject location ID mismatch before request"
+10,"Request forecast with days 9?",selected,daily_forecast,"Reject out-of-range argument before request"
