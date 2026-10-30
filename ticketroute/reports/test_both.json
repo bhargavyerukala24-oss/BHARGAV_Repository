@@ -1,0 +1,398 @@
+{
+  "split": "test",
+  "threshold": 0.65,
+  "margin": 0.15,
+  "warning": "Small synthetic sample; not a reliable benchmark.",
+  "models": {
+    "zero-shot": {
+      "metrics": {
+        "n": 8,
+        "accuracy_all": 0.5,
+        "macro_f1_all": 0.45833333333333326,
+        "classification_report": {
+          "billing problem": {
+            "precision": 1.0,
+            "recall": 0.5,
+            "f1-score": 0.6666666666666666,
+            "support": 2.0
+          },
+          "account access problem": {
+            "precision": 0.3333333333333333,
+            "recall": 1.0,
+            "f1-score": 0.5,
+            "support": 2.0
+          },
+          "technical error": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 2.0
+          },
+          "feature request": {
+            "precision": 1.0,
+            "recall": 0.5,
+            "f1-score": 0.6666666666666666,
+            "support": 2.0
+          },
+          "accuracy": 0.5,
+          "macro avg": {
+            "precision": 0.5833333333333333,
+            "recall": 0.5,
+            "f1-score": 0.45833333333333326,
+            "support": 8.0
+          },
+          "weighted avg": {
+            "precision": 0.5833333333333333,
+            "recall": 0.5,
+            "f1-score": 0.45833333333333326,
+            "support": 8.0
+          }
+        },
+        "confusion_matrix_labels": [
+          "billing problem",
+          "account access problem",
+          "technical error",
+          "feature request"
+        ],
+        "confusion_matrix": [
+          [
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            1
+          ]
+        ],
+        "auto_route_coverage": 0.0,
+        "accuracy_among_auto_routed": null,
+        "manual_review_count": 8
+      },
+      "predictions": [
+        {
+          "text": "The refunded amount on my statement is lower than expected.",
+          "expected": "billing problem",
+          "predicted": "account access problem",
+          "score": 0.2770971953868866,
+          "margin": 0.0012485682964324951,
+          "manual_review": true,
+          "scores": {
+            "account access problem": 0.2770971953868866,
+            "billing problem": 0.2758486270904541,
+            "feature request": 0.2296541929244995,
+            "technical error": 0.2173999845981598
+          }
+        },
+        {
+          "text": "My annual plan payment was taken, but I received no receipt.",
+          "expected": "billing problem",
+          "predicted": "billing problem",
+          "score": 0.29712989926338196,
+          "margin": 0.0432162880897522,
+          "manual_review": true,
+          "scores": {
+            "billing problem": 0.29712989926338196,
+            "technical error": 0.25391361117362976,
+            "feature request": 0.2402563989162445,
+            "account access problem": 0.208700031042099
+          }
+        },
+        {
+          "text": "My two-factor security code is rejected during login.",
+          "expected": "account access problem",
+          "predicted": "account access problem",
+          "score": 0.3830406963825226,
+          "margin": 0.1562741994857788,
+          "manual_review": true,
+          "scores": {
+            "account access problem": 0.3830406963825226,
+            "feature request": 0.22676649689674377,
+            "technical error": 0.21717563271522522,
+            "billing problem": 0.173017218708992
+          }
+        },
+        {
+          "text": "After changing my email address I cannot access my profile.",
+          "expected": "account access problem",
+          "predicted": "account access problem",
+          "score": 0.44116583466529846,
+          "margin": 0.23456552624702454,
+          "manual_review": true,
+          "scores": {
+            "account access problem": 0.44116583466529846,
+            "technical error": 0.20660030841827393,
+            "feature request": 0.18277569115161896,
+            "billing problem": 0.16945812106132507
+          }
+        },
+        {
+          "text": "The dashboard charts disappear after the page refreshes.",
+          "expected": "technical error",
+          "predicted": "account access problem",
+          "score": 0.33674100041389465,
+          "margin": 0.06707224249839783,
+          "manual_review": true,
+          "scores": {
+            "account access problem": 0.33674100041389465,
+            "billing problem": 0.2696687579154968,
+            "technical error": 0.2212272584438324,
+            "feature request": 0.17236293852329254
+          }
+        },
+        {
+          "text": "My uploaded spreadsheet fails to process with a server error.",
+          "expected": "technical error",
+          "predicted": "account access problem",
+          "score": 0.3678608536720276,
+          "margin": 0.10787302255630493,
+          "manual_review": true,
+          "scores": {
+            "account access problem": 0.3678608536720276,
+            "technical error": 0.25998783111572266,
+            "feature request": 0.2064824402332306,
+            "billing problem": 0.16566890478134155
+          }
+        },
+        {
+          "text": "Can the app include a calendar view for team tasks?",
+          "expected": "feature request",
+          "predicted": "account access problem",
+          "score": 0.6350783705711365,
+          "margin": 0.432447224855423,
+          "manual_review": true,
+          "scores": {
+            "account access problem": 0.6350783705711365,
+            "feature request": 0.2026311457157135,
+            "technical error": 0.09696192294359207,
+            "billing problem": 0.06532859802246094
+          }
+        },
+        {
+          "text": "Please introduce a bulk edit option for selected records.",
+          "expected": "feature request",
+          "predicted": "feature request",
+          "score": 0.35644474625587463,
+          "margin": 0.02162855863571167,
+          "manual_review": true,
+          "scores": {
+            "feature request": 0.35644474625587463,
+            "account access problem": 0.33481618762016296,
+            "billing problem": 0.15742826461791992,
+            "technical error": 0.1513107568025589
+          }
+        }
+      ]
+    },
+    "fine-tuned": {
+      "metrics": {
+        "n": 8,
+        "accuracy_all": 1.0,
+        "macro_f1_all": 1.0,
+        "classification_report": {
+          "billing problem": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 2.0
+          },
+          "account access problem": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 2.0
+          },
+          "technical error": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 2.0
+          },
+          "feature request": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 2.0
+          },
+          "accuracy": 1.0,
+          "macro avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 8.0
+          },
+          "weighted avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 8.0
+          }
+        },
+        "confusion_matrix_labels": [
+          "billing problem",
+          "account access problem",
+          "technical error",
+          "feature request"
+        ],
+        "confusion_matrix": [
+          [
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2
+          ]
+        ],
+        "auto_route_coverage": 1.0,
+        "accuracy_among_auto_routed": 1.0,
+        "manual_review_count": 0
+      },
+      "predictions": [
+        {
+          "text": "The refunded amount on my statement is lower than expected.",
+          "expected": "billing problem",
+          "predicted": "billing problem",
+          "score": 0.9184055328369141,
+          "margin": 0.8707579970359802,
+          "manual_review": false,
+          "scores": {
+            "billing problem": 0.9184055328369141,
+            "account access problem": 0.04764753580093384,
+            "feature request": 0.0198427252471447,
+            "technical error": 0.014104225672781467
+          }
+        },
+        {
+          "text": "My annual plan payment was taken, but I received no receipt.",
+          "expected": "billing problem",
+          "predicted": "billing problem",
+          "score": 0.87187260389328,
+          "margin": 0.7853739634156227,
+          "manual_review": false,
+          "scores": {
+            "billing problem": 0.87187260389328,
+            "account access problem": 0.08649864047765732,
+            "feature request": 0.025653718039393425,
+            "technical error": 0.015975037589669228
+          }
+        },
+        {
+          "text": "My two-factor security code is rejected during login.",
+          "expected": "account access problem",
+          "predicted": "account access problem",
+          "score": 0.7576452493667603,
+          "margin": 0.6005447953939438,
+          "manual_review": false,
+          "scores": {
+            "account access problem": 0.7576452493667603,
+            "technical error": 0.15710045397281647,
+            "billing problem": 0.054306644946336746,
+            "feature request": 0.03094763122498989
+          }
+        },
+        {
+          "text": "After changing my email address I cannot access my profile.",
+          "expected": "account access problem",
+          "predicted": "account access problem",
+          "score": 0.9069169163703918,
+          "margin": 0.8630888760089874,
+          "manual_review": false,
+          "scores": {
+            "account access problem": 0.9069169163703918,
+            "technical error": 0.04382804036140442,
+            "feature request": 0.025252340361475945,
+            "billing problem": 0.024002665653824806
+          }
+        },
+        {
+          "text": "The dashboard charts disappear after the page refreshes.",
+          "expected": "technical error",
+          "predicted": "technical error",
+          "score": 0.9117752909660339,
+          "margin": 0.8778268545866013,
+          "manual_review": false,
+          "scores": {
+            "technical error": 0.9117752909660339,
+            "account access problem": 0.03394843637943268,
+            "feature request": 0.03134443610906601,
+            "billing problem": 0.022931892424821854
+          }
+        },
+        {
+          "text": "My uploaded spreadsheet fails to process with a server error.",
+          "expected": "technical error",
+          "predicted": "technical error",
+          "score": 0.9093498587608337,
+          "margin": 0.8643707893788815,
+          "manual_review": false,
+          "scores": {
+            "technical error": 0.9093498587608337,
+            "account access problem": 0.044979069381952286,
+            "billing problem": 0.024450916796922684,
+            "feature request": 0.021220043301582336
+          }
+        },
+        {
+          "text": "Can the app include a calendar view for team tasks?",
+          "expected": "feature request",
+          "predicted": "feature request",
+          "score": 0.8925751447677612,
+          "margin": 0.8355396687984467,
+          "manual_review": false,
+          "scores": {
+            "feature request": 0.8925751447677612,
+            "technical error": 0.057035475969314575,
+            "account access problem": 0.025549814105033875,
+            "billing problem": 0.02483956702053547
+          }
+        },
+        {
+          "text": "Please introduce a bulk edit option for selected records.",
+          "expected": "feature request",
+          "predicted": "feature request",
+          "score": 0.7897906303405762,
+          "margin": 0.6715465411543846,
+          "manual_review": false,
+          "scores": {
+            "feature request": 0.7897906303405762,
+            "technical error": 0.11824408918619156,
+            "billing problem": 0.05375421792268753,
+            "account access problem": 0.03821101039648056
+          }
+        }
+      ]
+    }
+  }
+}

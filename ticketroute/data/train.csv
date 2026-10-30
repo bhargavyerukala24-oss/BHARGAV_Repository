@@ -1,0 +1,33 @@
+text,label,group_id
+I was charged twice for the same subscription.,billing problem,billing_problem_01
+The invoice shows a higher amount than the plan price.,billing problem,billing_problem_02
+My card was billed after I cancelled the subscription.,billing problem,billing_problem_03
+A payment succeeded but the invoice still says unpaid.,billing problem,billing_problem_04
+Please explain the tax amount on my latest bill.,billing problem,billing_problem_05
+The renewal fee appeared two times on my statement.,billing problem,billing_problem_06
+I need a corrected receipt for last month's purchase.,billing problem,billing_problem_07
+My bank shows a debit although checkout reported payment failure.,billing problem,billing_problem_08
+My password reset link has expired before I could use it.,account access problem,account_access_problem_01
+I cannot log in after changing my phone number.,account access problem,account_access_problem_02
+The sign-in verification code never arrives by email.,account access problem,account_access_problem_03
+My account is locked after several incorrect passwords.,account access problem,account_access_problem_04
+I lost access to the authenticator for my profile.,account access problem,account_access_problem_05
+The site says my email is not registered when I sign in.,account access problem,account_access_problem_06
+I cannot accept the team invitation with my existing account.,account access problem,account_access_problem_07
+My password works but the login page returns me to sign in.,account access problem,account_access_problem_08
+The dashboard displays a blank page in my browser.,technical error,technical_error_01
+The application crashes whenever I upload a PDF.,technical error,technical_error_02
+A server error appears when I export my report.,technical error,technical_error_03
+The mobile app freezes on its loading screen.,technical error,technical_error_04
+The search button does nothing after I press it.,technical error,technical_error_05
+My uploaded image appears broken on the profile page.,technical error,technical_error_06
+The notification settings page shows an unexpected error.,technical error,technical_error_07
+CSV downloads are corrupted when opened in Excel.,technical error,technical_error_08
+Please add a dark mode to the dashboard.,feature request,feature_request_01
+Could you support exporting reports as PDF?,feature request,feature_request_02
+I would like a way to schedule weekly summary emails.,feature request,feature_request_03
+Can you add a filter by customer region?,feature request,feature_request_04
+It would be useful to sort results by creation date.,feature request,feature_request_05
+Please let us customize dashboard colors.,feature request,feature_request_06
+Could the mobile app support offline viewing?,feature request,feature_request_07
+Add an option to pin favorite reports.,feature request,feature_request_08

@@ -1,0 +1,9 @@
+text,label,group_id
+My discount was not applied to the latest invoice.,billing problem,billing_problem_09
+Why was I billed when I am still on the free trial?,billing problem,billing_problem_10
+The reset password email does not reach my mailbox.,account access problem,account_access_problem_09
+How can I regain access after my account was disabled?,account access problem,account_access_problem_10
+The reports page keeps timing out after loading.,technical error,technical_error_09
+I receive a 500 error when saving my settings.,technical error,technical_error_10
+Please add keyboard shortcuts for common actions.,feature request,feature_request_09
+I would like to create custom report templates.,feature request,feature_request_10

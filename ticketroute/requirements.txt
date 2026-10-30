@@ -1,0 +1,7 @@
+streamlit>=1.42,<2
+transformers==4.51.3
+torch>=2.6,<3
+safetensors>=0.4,<1
+accelerate==1.6.0
+scikit-learn>=1.5,<2
+numpy>=1.26,<3

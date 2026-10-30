@@ -1,0 +1,9 @@
+text,label,group_id
+The refunded amount on my statement is lower than expected.,billing problem,billing_problem_11
+"My annual plan payment was taken, but I received no receipt.",billing problem,billing_problem_12
+My two-factor security code is rejected during login.,account access problem,account_access_problem_11
+After changing my email address I cannot access my profile.,account access problem,account_access_problem_12
+The dashboard charts disappear after the page refreshes.,technical error,technical_error_11
+My uploaded spreadsheet fails to process with a server error.,technical error,technical_error_12
+Can the app include a calendar view for team tasks?,feature request,feature_request_11
+Please introduce a bulk edit option for selected records.,feature request,feature_request_12
