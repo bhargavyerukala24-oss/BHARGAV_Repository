@@ -1,0 +1,35 @@
+[
+  {
+    "id": "S1",
+    "topic": "lab_results",
+    "title": "How to understand lab results",
+    "publisher": "MedlinePlus, U.S. National Library of Medicine",
+    "url": "https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/",
+    "source_date_label": "Last updated",
+    "source_date": "2025-09-04",
+    "checked_on": "2026-10-27",
+    "summary": "Laboratories may use different methods and reference ranges. A result outside a reference range does not by itself establish a diagnosis, and a result within range does not guarantee good health. A clinician considers the test in the context of the person's health and other information."
+  },
+  {
+    "id": "S2",
+    "topic": "antibiotics",
+    "title": "Preventing the spread of infection",
+    "publisher": "Wirral Community Health and Care NHS Foundation Trust",
+    "url": "https://www.wchc.nhs.uk/resources/information-leaflet-preventing-the-spread-of-infection/",
+    "source_date_label": "Page last reviewed",
+    "source_date": "2026-10-08",
+    "checked_on": "2026-10-27",
+    "summary": "Antibiotics do not treat viral infections such as colds or influenza. Questions about a particular infection or medicine should be discussed with a qualified clinician or pharmacist."
+  },
+  {
+    "id": "S3",
+    "topic": "appointment",
+    "title": "Make the most of your doctor visit",
+    "publisher": "MedlinePlus, U.S. National Library of Medicine",
+    "url": "https://medlineplus.gov/ency/patientinstructions/000860.htm",
+    "source_date_label": "Review date",
+    "source_date": "2024-09-15",
+    "checked_on": "2026-10-27",
+    "summary": "Preparing questions before an appointment can help patients discuss concerns. The article also suggests bringing a list of medicines, vitamins and supplements to the appointment."
+  }
+]
